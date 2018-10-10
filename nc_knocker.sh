@@ -23,12 +23,19 @@ echo " "
 echo "[i] Info: A Script That Uses netcat to knock ports."
 echo " "
 sleep 2.5s
-echo "[U] Usage: Modify list.txt to a path to your list."
+echo "[U] Usage: Modify list.txt to a path/file of your choosing."
+echo " "
+sleep 2.5s
+echo "[U] Usage: Modify output.txt to a path/file of your choosing."
 echo " "
 sleep 2.5s
 echo "[E] Example: /root/Desktop/target.txt will replace list.txt"
 echo " "
-echo "[W] Warning: Exit the Script Now if you have forgotten to modify list.txt"
+sleep 2.5s
+echo "[E] Example: /root/Desktop/result.txt will replace output.txt"
+echo " "
+sleep 2.5s
+echo "[W] WARNING!! Exit the Script Now if you have forgotten to modify list.txt & output.txt"
 echo " "
 sleep 5s
 echo "[GETTING READY] The Script Will Start in 5 Seconds"
