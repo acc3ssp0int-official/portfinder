@@ -3,11 +3,11 @@ echo " ==================================================================== "
 echo "|   _______         https://github.com/Banana-ftw/                   | "
 echo "|  |  __   |                                                         | "
 echo "|  | |  |  |  ______   ___      __   ______   ___      __  ______    | "
-echo "|  | |__| /  |  __  | |   \    |  | |  __  | |   \    |  ||  __  |   | "
-echo "|  |  __  \  | |__| | |  | \   |  | | |__| | |  | \   |  || |__| |   | "
-echo "|  | |  |  | |  __  | |  |  \  |  | |  __  | |  |  \  |  ||  __  |   | "
-echo "|  | |__|  | | |  | | |  |   \ |  | | |  | | |  |   \ |  || |  | |   | "
-echo "|  |_______| |_|  |_| |__|    \|__| |_|  |_| |__|    \|__||_|  |_|   | "
+echo "|  | |__| /  |  __  | |    \   |  | |  __  | |    \   |  ||  __  |   | "
+echo "|  |  __  \  | |__| | |  |\ \  |  | | |__| | |  |\ \  |  || |__| |   | "
+echo "|  | |  |  | |  __  | |  | \ \ |  | |  __  | |  | \ \ |  ||  __  |   | "
+echo "|  | |__|  | | |  | | |  |  \ \|  | | |  | | |  |  \ \|  || |  | |   | "
+echo "|  |_______| |_|  |_| |__|   \ ___| |_|  |_| |__|   \ ___||_|  |_|   | "
 echo "|                                                                    | "                                                                
 echo "|                  _________    _         _      _                   | "
 echo "|                 |  ____  |   | |       | |    | |                  | "
@@ -41,8 +41,8 @@ sleep 5s
 echo "[GETTING READY] The Script Will Start in 5 Seconds"
 sleep 5s
 
-for ip in $(cat list.txt); do
+for ip in $(cat list.txt); do				#Modify list.txt
 for i in $(seq 1 65535); do
-nc -nv -z $ip $i |& tee -a output.txt;
+nc -nv -z $ip $i |& tee -a output.txt;		#Modify Output.txt
 done
 done
