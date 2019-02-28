@@ -20,7 +20,7 @@ echo "|                                                                    | "
 echo " ====================================================================  "
 echo " "
 echo " "
-echo "[i] Info: A Script That Uses netcat to knock ports."
+echo "[i] Info: A Script That Uses netcat to find open ports."
 echo " "
 sleep 2.5s
 echo "[U] Usage: Modify list.txt to a path/file of your choosing."
