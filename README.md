@@ -1,4 +1,4 @@
-# nc_knocker
+# portfinder
 A scanner using nc(netcat) to check for open ports.
 I wrote a minimalistic script that uses nc (netcat) to knock ports.
 So, now you dont need to scan the entire range with nmap.
